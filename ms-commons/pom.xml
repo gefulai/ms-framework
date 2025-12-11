@@ -7,17 +7,13 @@
     <parent>
         <groupId>com.ms.framework</groupId>
         <artifactId>ms-framework</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>ms-common</artifactId>
+    <artifactId>ms-commons</artifactId>
     <packaging>pom</packaging>
 
-    <name>MicroService Common</name>
-
-    <modules>
-        <module>ms-common-core</module>
-        <module>ms-common-util</module>
-    </modules>
+    <name>MicroService Commons</name>
 
 </project>
